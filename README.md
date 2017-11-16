@@ -1,0 +1,1 @@
+## Running tests with Behat + Mink + Selenium

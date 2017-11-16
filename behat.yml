@@ -1,0 +1,13 @@
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://192.168.33.10/
+            show_cmd: open -a "Google Chrome" "%s"
+            default_session: selenium2            
+            browser_name: chrome #firefox, safari, googlechrome            
+            selenium2: 
+                capabilities: { "browser": "chrome"}
+                wd_host: http://127.0.0.1:4444/wd/hub
+
+
+                
